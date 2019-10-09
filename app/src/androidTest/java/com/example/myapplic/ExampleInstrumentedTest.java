@@ -22,5 +22,11 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.example.myapplic", appContext.getPackageName());
+        final Button button = findViewById(R.id.button_id);
+         button.setOnClickListener(new View.OnClickListener() {
+             public void onClick(View v) {
+                //aghfsh
+             }
+         });
     }
 }
